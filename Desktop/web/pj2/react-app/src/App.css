@@ -1,0 +1,67 @@
+.App {
+    text-align: center;
+}
+
+.modal {
+    width : auto;
+    height: 80%;
+    margin : 0 auto;
+    padding: 20px;
+    border : 1px solid #ccc;
+    border-radius : 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color : #fff;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+
+.black-nav {
+    display : flex;
+    background : black;
+    width : 100%;
+    color : white;
+    padding-left : 20px;
+}
+
+div {
+    box-sizing : border-box;
+}
+
+.list {
+    padding-left : 20px;
+    text-align : left;
+    border-bottom : 1px solid grey;
+}
+
+.large-textarea {
+    width: 100%;
+    height:150px;
+    resize: none;
+}
+.wide-input {
+    width: 100%; /* 너비를 100%로 설정 */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.right {
+    text-align : right;
+}
+
+.date-container {
+    display: flex;
+    justify-content: flex-end; /* 날짜 입력 박스를 오른쪽으로 정렬 */
+    gap: 10px; /* 입력 박스 사이의 간격을 조정 */
+    width: 100%; /* 전체 너비를 차지하도록 설정 */
+}
+
+.date-container input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
